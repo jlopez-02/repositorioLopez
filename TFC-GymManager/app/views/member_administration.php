@@ -47,8 +47,6 @@
         </div>
         
         <div class="member_button_container">
-            <a href="#">Registrar Cliente</a>
-            
         </div>
         
     </div>
