@@ -1,0 +1,46 @@
+html{
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: $bg-color;
+  font-family: $font;
+
+}
+
+header{
+  & * {
+    color: $text-color;
+  }
+}
+
+main {
+  padding-top: 100px;
+  margin: 0 auto;
+  & * {
+    color: $text-color;
+    background-color: transparent;
+  }
+  width: 95%;
+  height: min-content;
+  padding-bottom: 20px;
+}
+
+/*Delete Input Date Placeholder*/
+input[type=date]:required:invalid::-webkit-datetime-edit {
+  color: transparent;
+}
+input[type=date]:focus::-webkit-datetime-edit {
+  color: $text-color !important;
+}
+
+.active-link{
+  color: $main-3rd-color ;
+}
